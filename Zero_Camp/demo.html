@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="demostyle.css">
+</head>
+
+<body>
+  <header id="header">
+    <nav id="nav-bar">
+      <ul id="head_menu">
+        <li><a class="nav-link" href="https://github.com/Zer0Camp" target="_blank">About</a></li>
+        <li><a class="nav-link" href="https://github.com/Zer0Camp/.github/blob/main/profile/faqs.md"
+            target="_blank">FAQ</a></li>
+        <li><a class="nav-link" href="login.html" target="_blank">login</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="center-section">
+    <em id=" em1" style="font-size: 50px;">welcome to zero code camp</em>
+    <p>it is an intiative to provide freesoftware development education to the right persons<br>
+      you may be the right person for it</p>
+    <p>To become part of this please fill the details below</p>
+  </section>
+
+  <div id="form-section">
+    <form>
+      <label for "name" id="name-label">Name:</label><br>
+      <input type="text" id="name" required placeholder="name"><br>
+      <label for "email" id="email-label">email:</label><br>
+      <input type="email" id="email" required placeholder="email"><br>
+      <label for "number" id="number-label">age:</label><br>
+      <input type="number" id="number" min="1" max="999"><br>
+      <label for "phone" id="mobile">mobile number:</label><br>
+      <input type="tel" id="phone" pattern="[0-9]{10}" required><br>
+      <label for "gender" id="dropdown1">gender:</label>
+      <select id="dropdown" name="gender">
+        <option value="male">male</option>
+        <option value="female">female</option>
+      </select><br>
+      <input type="password" id="pass" required placeholder="password please"><br>
+      <div class="buttonSubmit">
+        <input type="submit" value="submit">
+      </div>
+    </form>
+  </div>
+
+
+  <footer>
+    <p>For more information&nbsp;<a href="codecamp">zerocodecamp.com</a></p>
+  </footer>
+</body>
+
+</html>
